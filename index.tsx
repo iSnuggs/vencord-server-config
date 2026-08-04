@@ -146,7 +146,7 @@ function onGuildJoinRequestCreate({ guildId }: any) {
 export default definePlugin({
     name: "ServerConfig",
     description: "Automatically applies your preferred notification/DM settings and nickname when you join a new server.",
-    authors: [{ name: "isnuggs", id: 0n }],
+    authors: [{ name: "isnuggs", id: 1483261914392825958n }],
     settings,
     flux: {
         GUILD_CREATE: onGuildCreate,
